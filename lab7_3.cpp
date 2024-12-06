@@ -1,8 +1,17 @@
 #include<iostream>
 using namespace std;
 
+//ไม่ต้องเติม function main()
+
 char before(char x){
-	//Write your function definition here
+char z;
+	if(x=='A'){z=x+25;}else{
+	    if(x<'A'){z=48;}else{
+	        if(x<='Z'){z=x-1;}else{z=48;}
+	        }
+	    
+	}
+	return z;
 }
 
 int main(){
